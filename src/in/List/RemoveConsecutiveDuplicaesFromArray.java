@@ -1,4 +1,4 @@
-package in.ineuron.List;
+package in.List;
 import java.util.ArrayList;
 
 
