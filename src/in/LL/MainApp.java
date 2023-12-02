@@ -22,16 +22,31 @@ public class MainApp {
 //		ll.display();
 		
 		
-		DoublyLinkedList dLL = new DoublyLinkedList();
-		dLL.insertFirst(4);
-		dLL.insertFirst(3);
-		dLL.insertFirst(2);
-		dLL.insertFirst(1);
-		dLL.insertLast(5);
+//		DoublyLinkedList dLL = new DoublyLinkedList();
+//		dLL.insertFirst(4);
+//		dLL.insertFirst(3);
+//		dLL.insertFirst(2);
+//		dLL.insertFirst(1);
+//		dLL.insertLast(5);
+//		
+//		dLL.insert(5, 6);
+//		
+//		dLL.display();
 		
-		dLL.insert(5, 6);
 		
-		dLL.display();
+		CircularLL cLL = new CircularLL();
+		cLL.insert(8);
+		cLL.insert(5);
+		cLL.insert(3);
+		cLL.insert(2);
+		
+		
+		cLL.deleteNode(8);
+		cLL.deleteNode(5);
+		cLL.deleteNode(3);
+//		cLL.deleteNode(2);
+		
+		cLL.display();
 					
 	}
 	
